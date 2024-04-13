@@ -67,7 +67,7 @@ h6 {
   display: flex;
   flex-direction: column;
   align-items: center;
-  padding-top: 70px;
+  padding-top: 80px;
   padding-bottom: 20px;
 }
 
@@ -76,7 +76,6 @@ h6 {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding: 70px 0;
 }
 
 .info-block {
@@ -88,8 +87,8 @@ h6 {
   border-radius: 8px;
   background-color: #fff;
   box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
-  width: 450px;
   height: 360px;
+  width: 450px;
   margin: 0 30px;
   padding: 20px;
 }
@@ -100,13 +99,13 @@ h6 {
   color: #4caf50;
 }
 
+.info-block h3 {
+  margin-bottom: 15px;
+}
+
 .info-block p {
   font-size: 1rem;
   color: #333;
-}
-
-.info-block h3 {
-  margin-bottom: 15px;
 }
 
 .gallery-section {
@@ -114,7 +113,6 @@ h6 {
   display: flex;
   justify-content: space-around;
   align-items: center;
-  background-color: #f4f4f4;
   padding: 0 20px;
 }
 
@@ -124,11 +122,11 @@ h6 {
 }
 
 .form-section {
+  height: 100vh;
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  height: 100vh;
 }
 
 .form-text {
@@ -166,12 +164,8 @@ h6 {
 
 .form-container input[type='text']:focus,
 .form-container input[type='email']:focus,
-.form-container input[type='tel']:focus {
-  outline: none;
-  border: 2px solid #4caf50;
-}
-
+.form-container input[type='tel']:focus,
 .form-container input[type='submit']:focus {
   outline: none;
-  border: 2px solid #45a049;
+  border: 2px solid #4caf50;
 }
