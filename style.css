@@ -63,17 +63,20 @@ h6 {
 }
 
 .infos-session {
+  height: 100vh;
   display: flex;
   flex-direction: column;
   align-items: center;
-  padding: 70px 0;
+  padding-top: 70px;
+  padding-bottom: 20px;
 }
 
 .info-block-section {
+  height: 100vh;
   display: flex;
-  justify-content: space-around;
+  justify-content: space-between;
   align-items: center;
-  padding: 35px 0;
+  padding: 70px 0;
 }
 
 .info-block {
@@ -85,10 +88,10 @@ h6 {
   border-radius: 8px;
   background-color: #fff;
   box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
-  width: 400px;
-  height: 320px;
-  margin: 0 35px;
-  padding: 40px;
+  width: 450px;
+  height: 360px;
+  margin: 0 30px;
+  padding: 20px;
 }
 
 .info-block i {
